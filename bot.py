@@ -851,7 +851,7 @@ def call_back_inline(call):
         def answer(messsege):
             text = messsege.text
             text = str(text).lower()
-            url = f'https://cars.av.by/renaut/{text}'
+            url = f'https://cars.av.by/renault/{text}'
             r = requests.get(url)
             r.encoding = 'UTF-8'
             count = 0
